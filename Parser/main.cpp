@@ -7,9 +7,17 @@
 //
 
 #include <iostream>
+#include "Parser.h"
+#include "Scanner.h"
+
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    string phrase;
+    cin>>phrase;
+    bool scanner = false;
+    scanner = Scanner(phrase);
+    if (scanner == true){
+        parser(phrase);
+    }
     return 0;
 }
