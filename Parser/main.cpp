@@ -10,7 +10,7 @@
 #include "Parser.h"
 #include "Scanner.h"
 
-
+//Main que junta Scanner con Parser
 int main(int argc, const char * argv[]) {
     string phrase;
     cin>>phrase;

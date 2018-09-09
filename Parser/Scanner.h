@@ -23,6 +23,7 @@ using namespace std;
 
 
 int MatrizLaws[3][8]={
+    //Se debe de editar la matriz si quiero que solo termine en ";"
     //{1-9}, 0, {a-z}, (), op, ;, otro
     /* Estado 0 */{1, 999, 2, 103, 999, 105,999},
     /* Estado 1 */{1, 1, 999, 106, 106, 106, 999},   //numero
